@@ -68,3 +68,22 @@ body{
     line-height: 1.5%;
     height: auto;
 }
+
+.dark {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.dark .divider {
+    border-color: #555;
+}
+
+.dark .logo {
+    filter: brightness(0.8);
+}
+
+.dark select {
+    background-color: #333;
+    color: #f1f1f1;
+    border: 1px solid #777;
+}
